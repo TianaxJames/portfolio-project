@@ -16,7 +16,7 @@ header {
 h1 {
   font-weight: bold;
   line-height: 1.5;
-  font-size: 72px;
+  font-size: 96px;
   font-family: var(--heading-font);
 }
 h2 {
@@ -70,4 +70,18 @@ header h2 {
 .btn-learn-more:hover {
   background: var(--secondary-color);
   font-family: var(--secondary-font);
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    text-align: center;
+    padding: 20px 30px;
+  }
+  h1 {
+    font-size: 55px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 45px;
+  }
 }
