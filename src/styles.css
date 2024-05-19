@@ -13,15 +13,21 @@ header {
   background: rgb(246, 239, 251);
   padding: 160px 20px;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+}
 h1 {
   font-weight: bold;
   line-height: 1.5;
   font-size: 96px;
-  font-family: var(--heading-font);
 }
 h2 {
   font-size: 64px;
-  font-family: var(--heading-font);
 }
 p {
   font-size: 16px;
@@ -40,7 +46,6 @@ header h2 {
   font-weight: regular;
   font-size: 18px;
   line-height: 1.5;
-  font-family: var(--secondary-font);
 }
 .project-description {
   padding: 120px 60px;
@@ -72,26 +77,28 @@ header h2 {
   background: var(--secondary-color);
   font-family: var(--secondary-font);
 }
-.about-section-content h1 {
-  font-family: var(--heading-font);
+.content h1 {
   font-size: 55px;
   font-weight: bold;
   line-height: 1.2;
 }
-.about-section-content h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--secondary-font);
 }
-.about-section-content p {
+.content h3 {
+  font-size: 24px;
+  font-family: var(--secondary-font);
+  margin: 20px 0 0;
+}
+.content p {
   font-size: 16px;
   font-family: var(--secondary-font);
   line-height: 1.4;
 }
 
-.about-section {
+.content-container {
   padding: 100px 200px;
-}
-.about-section-content {
 }
 
 @media (max-width: 900px) {
@@ -102,13 +109,13 @@ header h2 {
   h2 {
     font-size: 45px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     display: block;
     margin: 0 auto;
     padding: 50px 20px;
   }
-  .about-section .btn {
+  .content-container .btn {
     margin-bottom: 50px;
   }
 }
