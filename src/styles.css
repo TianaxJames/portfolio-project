@@ -100,6 +100,15 @@ header h2 {
 .content-container {
   padding: 100px 200px;
 }
+.links-icon {
+  background-color: rgb(250, 244, 254);
+  padding: 20px 15px 0px;
+  border-radius: 10px;
+}
+.links-icon a {
+  color: var(--primary-color);
+  font-size: 60px;
+}
 
 @media (max-width: 900px) {
   h1 {
