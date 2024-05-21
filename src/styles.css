@@ -129,6 +129,9 @@ header h2 {
   text-decoration: none;
   justify-content: left;
 }
+.logo-name {
+  font-size: 26px;
+}
 
 nav {
   padding: 15px;
@@ -152,6 +155,7 @@ nav li.active a {
   color: var(--primary-color);
   transition: all 150ms ease-in-out;
 }
+
 @media (max-width: 900px) {
   h1 {
     padding: 5px;
