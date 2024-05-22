@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Tiana James is a front-end engineer based in Canada. Check out her story!"
+    />
+    <title>About-Tiana James</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -34,7 +38,30 @@
     />
   </head>
   <body>
-    <div class="content-container container mt-5">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <div d-flex justify-content-start title="Homepage">
+          <a class="logo" title="Homepage" href="index.html">
+            <i class="fa-solid fa-star"></i>
+          </a>
+          <a class="logo-name" href="index.html">Tiana James </a>
+        </div>
+        <ul>
+          <li>
+            <a href="index.html" title="Homepage"> Home </a>
+          </li>
+          <li>
+            <a href="work.html" title="Tiana's projects">Work</a>
+          </li>
+          <li class="active">
+            <a href="about.html" title="About Tiana">About</a>
+          </li>
+          <li><a href="contact.html" title="Contact Tiana">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="content-container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
@@ -55,5 +82,49 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a href="contact.html" class="btn btn-branding" target="_blank"
+            >Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a href="mailto:itstianajames@gmail.com" class="email-link"
+          >itstianajames@gmail.com</a
+        >
+      </div>
+      <div class="links-icon d-flex justify-content-center">
+        <p>
+          <a href="https://github.com/tianaxJames" title="Tiana's Github">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </p>
+        <p>
+          <a href="mailto:itstianajames@gmail.com" title="Email Tiana">
+            <i class="fa-regular fa-envelope fa-bounce"></i>
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/tiana-james-4650b927a/"
+            title="Tiana's LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </p>
+      </div>
+    </footer>
+    <p class="text-center coded-by" mt-4>
+      This project was coded with ❤️ by Tiana James and is
+      <a href="https://github.com/TianaxJames" target="_blank"> open-sourced</a>
+    </p>
   </body>
 </html>
